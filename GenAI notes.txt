@@ -1,0 +1,50 @@
+Terms to look into later:
+-	Reinformement learning,deep learning
+-	How statistics is used in gen ai
+-	LangChain + Data Engineering + Prompt Engineering
+-	Google's PaLM 2
+-	Preprocess: data engineering + MLOps skills
+-	GCP services like AutoML
+-	Hadoop,hive and spark, dataflow, dataproc
+-	Virtual machine
+-	LaMDa family.
+-	GAN 
+
+PaLM:
+PaLM (Pathway Language Model) is a term used to refer to a family of language models that are pretrained on large amounts of text data to learn representations of language.
+PaLM models are based on the Transformer architecture and are trained using a two-step process: pretraining and fine-tuning. During pretraining, the model learns to predict missing words in sentences or other related language tasks using a massive corpus of text data, such as books, articles, and web pages. This unsupervised pretraining step helps the model learn general linguistic patterns and acquire knowledge about language.
+After pretraining, the PaLM model can be fine-tuned on specific downstream tasks, such as text classification, named entity recognition, machine translation, and more. The fine-tuning process allows the model to adapt its pretrained knowledge to perform well on specific tasks with relatively limited labeled data.
+
+GenAI vs Traditional AI:
+Traditional – relies on analyzing and processing existing data to make predictions and recommendations. Trained on existing dataset.
+GenAI – Creates new data that does not already exist in the training dataset.
+Techniques in GenAI:
+-	GANs – consist of a generator & a discriminator 
+-	VAEs – learns a compressed representation of the input data, which is then used to generate new data. 
+
+Using our own dataset. Connect with:
+1. data loaders – can use advanced ETL pipelines (like unstructured.io)
+2. vector databases – vectorise an array of unstructured data using LLM embeddings. These vectors are then stored for efficient querying
+3. context window 
+-	to personalize model outputs 
+-	use the technique called retrieval-augmented generation. 
+-	Allows developers to incorporate data directly into the prompt
+-	LangChain & Llamalndex (allows integratin of data into the model’s context window)
+
+Evaluation platform
+1. Prompt engineering
+2. Experimentation 
+3. Observability – LangKit -> to check quality of model outputs
+
+
+Thrid Party software company:
+Quantiphi:
+Google conversational AI – first line of defense 
+If want to have more human touch – use their agent 
+ 
+-	Automation - An extension of what google can do 
+-	Baioniq – help to extract information 
+-	Summarise previous conversations before transfer to human agent.
+-	Help you connect with agents 
+-	Help you build conversational design
+
